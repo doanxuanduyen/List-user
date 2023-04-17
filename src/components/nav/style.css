@@ -1,0 +1,20 @@
+.nav {
+  display: flex;
+  flex-direction: column;
+  border-right: solid 1px rgba(100, 100, 111, 0.2);
+  height: 100vh;
+}
+.nav .link {
+  cursor: pointer;
+  padding: 3.6rem;
+}
+.nav .link i {
+  font-size: 2rem;
+  color: #bd5156;
+}
+.nav .link:hover {
+  background: rgba(185, 51, 58, 0.8745098039);
+}
+.nav .link:hover i {
+  color: #f9f9fb;
+}/*# sourceMappingURL=style.css.map */

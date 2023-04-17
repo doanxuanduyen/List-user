@@ -1,0 +1,23 @@
+.nav{
+    display:  flex;
+    flex-direction: column;
+    border-right:solid 1px rgba(100, 100, 111, 0.2);
+    height: 100vh;
+
+    .link{
+        cursor: pointer;
+        padding: 3.6rem;
+        i{
+            font-size: 2rem;
+            color: #bd5156;
+        }
+        &:hover{
+            background: #b9333adf;
+            i{
+                color: #f9f9fb;
+            }
+        }
+    }
+}
+
+

@@ -1,0 +1,9 @@
+html {
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.App .main {
+  display: grid;
+  grid-template-columns: 5% 95%;
+}/*# sourceMappingURL=App.css.map */

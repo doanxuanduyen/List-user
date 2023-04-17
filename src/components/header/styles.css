@@ -1,0 +1,13 @@
+#header {
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 2rem 4rem;
+  border-bottom: solid 1px rgba(100, 100, 111, 0.2);
+  color: #bd5156;
+}
+#header i {
+  cursor: pointer;
+}
+#header span {
+  margin-left: 4rem;
+}/*# sourceMappingURL=styles.css.map */

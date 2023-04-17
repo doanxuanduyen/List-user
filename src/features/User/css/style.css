@@ -1,0 +1,146 @@
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: #bd5156;
+  padding: 1.5rem 2rem;
+  color: white;
+  border-radius: 4rem;
+}
+
+.MuiDataGrid-columnHeaderTitle {
+  font-weight: bold !important;
+}
+
+.MuiDataGrid-main {
+  font-size: 1.5rem !important;
+  cursor: pointer !important;
+}
+
+.container {
+  padding: 2rem;
+  background: #f9f9fb;
+  height: 100%;
+}
+.container .form__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 2rem;
+  margin-bottom: 2rem;
+}
+.container .form__container h1.header__title {
+  font-size: 3rem;
+  font-weight: 500;
+  margin: 0;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.container .form__container form {
+  padding: 2rem 4rem;
+  width: 96%;
+  border-radius: 0.5rem;
+  background: white;
+  font-size: 1.5rem;
+}
+.container .form__container form .row {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.container .form__container form .row label {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 76rem;
+}
+.container .form__container form .row label input {
+  outline: none;
+  border-radius: 0.5rem;
+  border: 3px solid #f8f8f8;
+  margin: 4rem;
+  height: 3rem;
+  width: 60rem;
+  margin-left: 2rem;
+}
+.container .form__container form .row label input:focus {
+  border: 3px solid #bd5156;
+}
+.container .form__container form button {
+  margin-top: 2rem;
+  width: 10rem;
+}
+
+.user__detail {
+  width: 96%;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.user__detail .short__infor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  padding: 4rem 12rem;
+  border-radius: 1rem;
+}
+.user__detail .short__infor .ava {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  background-color: #bd5156;
+}
+.user__detail .short__infor h2 {
+  font-size: 3.5rem;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  color: #452a2c;
+}
+.user__detail .short__infor p {
+  font-size: 2rem;
+  color: rgba(63, 63, 69, 0.7490196078);
+  margin: 1rem 0;
+}
+.user__detail .long__infor {
+  background: white;
+  padding: 4rem 12rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 57%;
+}
+.user__detail .long__infor .btn {
+  display: flex;
+  justify-content: space-between;
+}
+.user__detail .long__infor .btn .space {
+  width: 80%;
+}
+.user__detail .long__infor .btn .btn__edit {
+  width: 15rem;
+}
+.user__detail .long__infor .long__infor__items {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4rem;
+}
+.user__detail .long__infor .long__infor__items .long__infor__item {
+  padding-right: 2rem;
+  border-bottom: 0.3rem solid #f9f9fb;
+  width: 20rem;
+}
+.user__detail .long__infor .long__infor__items .long__infor__item .title__infor {
+  font-size: 2rem;
+  color: #c13037;
+  font-weight: 600;
+}
+.user__detail .long__infor .long__infor__items .long__infor__item .user__infor {
+  font-size: 1.5rem;
+}/*# sourceMappingURL=style.css.map */
