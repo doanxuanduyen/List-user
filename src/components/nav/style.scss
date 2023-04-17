@@ -1,23 +1,27 @@
-.nav{
-    display:  flex;
+.nav {
+    display: flex;
     flex-direction: column;
-    border-right:solid 1px rgba(100, 100, 111, 0.2);
+    border-right: solid 1px rgba(100, 100, 111, 0.2);
     height: 100vh;
 
-    .link{
+    .link {
         cursor: pointer;
-        padding: 3.6rem;
-        i{
+        padding: 3.6rem 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        i {
             font-size: 2rem;
             color: #bd5156;
         }
-        &:hover{
+
+        &:hover {
             background: #b9333adf;
-            i{
+
+            i {
                 color: #f9f9fb;
             }
         }
     }
 }
-
-
